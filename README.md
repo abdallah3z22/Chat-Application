@@ -7,7 +7,6 @@
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 A production-ready real-time chat application built using Flutter & Firebase.
 Engineered with scalable architecture and clean coding principles.
