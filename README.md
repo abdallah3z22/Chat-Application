@@ -7,9 +7,9 @@
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A fast, secure, and professional chat application designed to showcase modern software engineering skills.
+A production-ready real-time chat application built using Flutter & Firebase.
+Engineered with scalable architecture and clean coding principles.
 
 </div>
 
@@ -24,16 +24,9 @@ It integrates Flutter and Firebase to deliver a robust backend, modern UI, and h
 
 ## ✨ Key Features
 
-- 🔐 Secure email/password authentication  
+- 🔐 email/password authentication  
 - 💬 Real-time chat using Cloud Firestore  
-- 🟢 Online/offline user status  
-- 📷 Image sharing via Firebase Storage  
 - 🔔 Push notifications via Firebase Cloud Messaging  
-- 🌙 Dark mode support  
-- 📌 Last seen & message timestamps  
-- 🔍 User search functionality  
-- 🗑️ Message deletion  
-
 ---
 
 ## 🏗️ Architecture
@@ -107,7 +100,6 @@ flutter run
 
 - Firestore security rules applied  
 - User authentication required to access chat  
-- Secure storage for images and files  
 - Safe handling of push notification tokens  
 
 ---
@@ -122,26 +114,11 @@ flutter run
 
 ---
 
-## 🤝 Contribution
-
-1. Fork the repository  
-2. Create a new branch  
-3. Make clear commits  
-4. Submit a Pull Request  
-
----
-
-## 📜 License
-
-MIT License
-
----
-
 <div align="center">
 
 ## 👨‍💻 Developer
 
-Abdallah Zaitoun  
-Flutter Developer | Mobile Engineer
+For questions or support, contact **Abdallah Zaitoun**:  
+- LinkedIn: [Abdallah Zaitoun](https://www.linkedin.com/in/abdallah-zaitoun-133754348)
 
 </div>
