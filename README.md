@@ -1,7 +1,7 @@
 <div align="center">
 
 # 💬 ChatApp
-### تطبيق دردشة فوري حديث | Modern Realtime Chat App
+### Modern Realtime Chat App
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
@@ -9,34 +9,34 @@
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-تطبيق دردشة سريع، آمن، واحترافي صُمم لإظهار مهارات هندسة البرمجيات الحديثة.
+A fast, secure, and professional chat application designed to showcase modern software engineering skills.
 
 </div>
 
 ---
 
-## 📖 ملخص المشروع | Project Overview
+## 📖 Project Overview
 
-ChatApp هو تطبيق مراسلة فورية، صُمم ليمنح تجربة استخدام سلسة وموثوقة على أجهزة Android و iOS.  
-يدمج Flutter و Firebase لتقديم بنية قوية، واجهة حديثة، وأداء عالي في الوقت الحقيقي.
-
----
-
-## ✨ المميزات | Key Features
-
-- 🔐 تسجيل دخول آمن بالبريد الإلكتروني وكلمة المرور  
-- 💬 دردشة فورية باستخدام Cloud Firestore  
-- 🟢 حالة المستخدم (متصل / غير متصل)  
-- 📷 مشاركة الصور عبر Firebase Storage  
-- 🔔 إشعارات فورية عبر Firebase Cloud Messaging  
-- 🌙 دعم الوضع الليلي  
-- 📌 عرض آخر ظهور وتوقيت الرسائل  
-- 🔍 البحث عن المستخدمين  
-- 🗑️ حذف الرسائل  
+ChatApp is a real-time messaging application designed to provide a smooth and reliable user experience on Android and iOS devices.  
+It integrates Flutter and Firebase to deliver a robust backend, modern UI, and high-performance real-time messaging.
 
 ---
 
-## 🏗️ الهيكل المعماري | Architecture
+## ✨ Key Features
+
+- 🔐 Secure email/password authentication  
+- 💬 Real-time chat using Cloud Firestore  
+- 🟢 Online/offline user status  
+- 📷 Image sharing via Firebase Storage  
+- 🔔 Push notifications via Firebase Cloud Messaging  
+- 🌙 Dark mode support  
+- 📌 Last seen & message timestamps  
+- 🔍 User search functionality  
+- 🗑️ Message deletion  
+
+---
+
+## 🏗️ Architecture
 
 ```
 lib/
@@ -52,50 +52,50 @@ lib/
  ┗ main.dart
 ```
 
-**المبادئ المعمارية:**  
-- فصل المسؤوليات (Separation of Concerns)  
-- طبقة خدمات مستقلة للتعامل مع Firebase  
-- إدارة حالة منظمة (Provider / Riverpod)  
-- مكونات قابلة لإعادة الاستخدام  
-- تنظيم الملفات بشكل احترافي  
+**Architecture Principles:**  
+- Separation of Concerns  
+- Independent service layer for Firebase interactions  
+- Organized state management (Provider / Riverpod)  
+- Reusable UI components  
+- Professional folder organization  
 
 ---
 
-## 🛠️ التقنيات المستخدمة | Tech Stack
+## 🛠️ Tech Stack
 
-| الطبقة | التقنية |
+| Layer | Technology |
 |--------|----------|
-| واجهة المستخدم | Flutter |
-| لغة البرمجة | Dart |
-| المصادقة | Firebase Auth |
-| قاعدة البيانات | Cloud Firestore |
-| التخزين | Firebase Storage |
-| الإشعارات | Firebase Cloud Messaging |
+| UI Framework | Flutter |
+| Programming Language | Dart |
+| Authentication | Firebase Auth |
+| Database | Cloud Firestore |
+| Storage | Firebase Storage |
+| Notifications | Firebase Cloud Messaging |
 
 ---
 
-## ⚙️ التثبيت والتشغيل | Setup & Run
+## ⚙️ Setup & Run
 
-### 1️⃣ تحميل المشروع | Clone
+### 1️⃣ Clone the project
 
 ```bash
 git clone https://github.com/username/chatapp.git
 cd chatapp
 ```
 
-### 2️⃣ تثبيت المكتبات | Install Dependencies
+### 2️⃣ Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-### 3️⃣ إعداد Firebase | Firebase Setup
+### 3️⃣ Firebase Setup
 
-1. إنشاء مشروع Firebase جديد  
-2. تفعيل Authentication, Firestore, Storage, Cloud Messaging  
-3. تحميل `google-services.json` ووضعه داخل `android/app/`  
+1. Create a new Firebase project  
+2. Enable Authentication, Firestore, Storage, Cloud Messaging  
+3. Download `google-services.json` and place it in `android/app/`  
 
-### 4️⃣ تشغيل التطبيق | Run App
+### 4️⃣ Run the app
 
 ```bash
 flutter run
@@ -103,35 +103,35 @@ flutter run
 
 ---
 
-## 🔐 الأمان | Security
+## 🔐 Security
 
-- قواعد حماية Firestore  
-- التحقق من المستخدم قبل الوصول للدردشة  
-- تخزين مؤمن للصور والملفات  
-- إدارة رموز الإشعارات بأمان  
-
----
-
-## 🚀 خطط التطوير المستقبلي | Future Roadmap
-
-- دردشات جماعية (Group Chat)  
-- الرسائل الصوتية والفيديو  
-- التفاعلات على الرسائل (Reactions)  
-- تشفير كامل للمحادثات (End-to-End Encryption)  
-- دمج CI/CD و Deployment آلي  
+- Firestore security rules applied  
+- User authentication required to access chat  
+- Secure storage for images and files  
+- Safe handling of push notification tokens  
 
 ---
 
-## 🤝 المساهمة | Contribution
+## 🚀 Future Roadmap
 
-1. عمل Fork للمشروع  
-2. إنشاء فرع جديد  
-3. تنفيذ التعديلات مع رسائل واضحة  
-4. إرسال Pull Request  
+- Group chats  
+- Voice and video messages  
+- Message reactions  
+- End-to-end encryption  
+- CI/CD integration and automated deployment  
 
 ---
 
-## 📜 الترخيص | License
+## 🤝 Contribution
+
+1. Fork the repository  
+2. Create a new branch  
+3. Make clear commits  
+4. Submit a Pull Request  
+
+---
+
+## 📜 License
 
 MIT License
 
@@ -139,9 +139,9 @@ MIT License
 
 <div align="center">
 
-## 👨‍💻 المطور | Developer
+## 👨‍💻 Developer
 
 Abdallah Zaitoun  
-Flutter Developer | مهندس تطبيقات موبايل
+Flutter Developer | Mobile Engineer
 
 </div>
