@@ -1,51 +1,42 @@
 <div align="center">
 
 # 💬 ChatApp
-### Scalable Realtime Messaging Application
+### تطبيق دردشة فوري حديث | Modern Realtime Chat App
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
 ![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-A production-ready real-time chat application built using Flutter & Firebase.
-Engineered with scalable architecture and clean coding principles.
+تطبيق دردشة سريع، آمن، واحترافي صُمم لإظهار مهارات هندسة البرمجيات الحديثة.
 
 </div>
 
 ---
 
-## 📖 Overview
+## 📖 ملخص المشروع | Project Overview
 
-ChatApp is a modern messaging application designed to deliver a smooth and secure real-time communication experience.
-
-The project demonstrates:
-
-- Clean Architecture principles
-- Modular project structure
-- Firebase backend integration
-- Reusable UI components
-- Scalable state management
+ChatApp هو تطبيق مراسلة فورية، صُمم ليمنح تجربة استخدام سلسة وموثوقة على أجهزة Android و iOS.  
+يدمج Flutter و Firebase لتقديم بنية قوية، واجهة حديثة، وأداء عالي في الوقت الحقيقي.
 
 ---
 
-## ✨ Core Features
+## ✨ المميزات | Key Features
 
-- 🔐 Secure Email & Password Authentication
-- 💬 Real-time Messaging using Firestore Streams
-- 🟢 Online / Offline User Presence
-- 📷 Image Sharing (Firebase Storage)
-- 🔔 Push Notifications (Firebase Cloud Messaging)
-- 🌙 Dark Mode Support
-- 📌 Last Seen & Timestamps
-- 🔍 User Search
-- 🗑️ Message Deletion
+- 🔐 تسجيل دخول آمن بالبريد الإلكتروني وكلمة المرور  
+- 💬 دردشة فورية باستخدام Cloud Firestore  
+- 🟢 حالة المستخدم (متصل / غير متصل)  
+- 📷 مشاركة الصور عبر Firebase Storage  
+- 🔔 إشعارات فورية عبر Firebase Cloud Messaging  
+- 🌙 دعم الوضع الليلي  
+- 📌 عرض آخر ظهور وتوقيت الرسائل  
+- 🔍 البحث عن المستخدمين  
+- 🗑️ حذف الرسائل  
 
 ---
 
-## 🏗️ Architecture
-
-The project follows a scalable layered structure:
+## 🏗️ الهيكل المعماري | Architecture
 
 ```
 lib/
@@ -61,80 +52,50 @@ lib/
  ┗ main.dart
 ```
 
-### Architectural Concepts
-
-- Separation of Concerns
-- Service Abstraction Layer
-- Reusable Widgets
-- Provider / Riverpod State Management
-- Clean Folder Organization
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| UI Framework | Flutter |
-| Language | Dart |
-| Authentication | Firebase Auth |
-| Database | Cloud Firestore |
-| Storage | Firebase Storage |
-| Notifications | Firebase Cloud Messaging |
+**المبادئ المعمارية:**  
+- فصل المسؤوليات (Separation of Concerns)  
+- طبقة خدمات مستقلة للتعامل مع Firebase  
+- إدارة حالة منظمة (Provider / Riverpod)  
+- مكونات قابلة لإعادة الاستخدام  
+- تنظيم الملفات بشكل احترافي  
 
 ---
 
-## 📱 Screenshots
+## 🛠️ التقنيات المستخدمة | Tech Stack
 
-Create a folder named:
-
-```
-screenshots/
-```
-
-Add images, then include:
-
-```markdown
-<p align="center">
-  <img src="screenshots/1.png" width="250">
-  <img src="screenshots/2.png" width="250">
-  <img src="screenshots/3.png" width="250">
-</p>
-```
+| الطبقة | التقنية |
+|--------|----------|
+| واجهة المستخدم | Flutter |
+| لغة البرمجة | Dart |
+| المصادقة | Firebase Auth |
+| قاعدة البيانات | Cloud Firestore |
+| التخزين | Firebase Storage |
+| الإشعارات | Firebase Cloud Messaging |
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ التثبيت والتشغيل | Setup & Run
 
-### 1️⃣ Clone the repository
+### 1️⃣ تحميل المشروع | Clone
 
 ```bash
-git clone https://github.com/yourusername/chatapp.git
+git clone https://github.com/username/chatapp.git
 cd chatapp
 ```
 
-### 2️⃣ Install dependencies
+### 2️⃣ تثبيت المكتبات | Install Dependencies
 
 ```bash
 flutter pub get
 ```
 
-### 3️⃣ Firebase Setup
+### 3️⃣ إعداد Firebase | Firebase Setup
 
-1. Create a new Firebase Project
-2. Enable:
-   - Authentication (Email/Password)
-   - Cloud Firestore
-   - Firebase Storage
-   - Cloud Messaging
-3. Download `google-services.json`
-4. Place it inside:
+1. إنشاء مشروع Firebase جديد  
+2. تفعيل Authentication, Firestore, Storage, Cloud Messaging  
+3. تحميل `google-services.json` ووضعه داخل `android/app/`  
 
-```
-android/app/
-```
-
-### 4️⃣ Run the application
+### 4️⃣ تشغيل التطبيق | Run App
 
 ```bash
 flutter run
@@ -142,57 +103,45 @@ flutter run
 
 ---
 
-## 🔐 Security
+## 🔐 الأمان | Security
 
-- Firestore security rules enabled
-- Authentication required before accessing chat
-- Restricted storage access
-- Token-based push notification handling
-
----
-
-## 🧪 Testing (Recommended)
-
-- Unit Testing
-- Widget Testing
-- Integration Testing
-- Firebase Emulator Integration
+- قواعد حماية Firestore  
+- التحقق من المستخدم قبل الوصول للدردشة  
+- تخزين مؤمن للصور والملفات  
+- إدارة رموز الإشعارات بأمان  
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 خطط التطوير المستقبلي | Future Roadmap
 
-- ✅ Group Chats
-- ✅ Voice Messages
-- ✅ Video Calls
-- ✅ Message Reactions
-- ✅ End-to-End Encryption
-- ✅ CI/CD Pipeline Integration
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new feature branch
-3. Commit changes with clear messages
-4. Submit a Pull Request
+- دردشات جماعية (Group Chat)  
+- الرسائل الصوتية والفيديو  
+- التفاعلات على الرسائل (Reactions)  
+- تشفير كامل للمحادثات (End-to-End Encryption)  
+- دمج CI/CD و Deployment آلي  
 
 ---
 
-## 📜 License
+## 🤝 المساهمة | Contribution
 
-This project is licensed under the MIT License.
+1. عمل Fork للمشروع  
+2. إنشاء فرع جديد  
+3. تنفيذ التعديلات مع رسائل واضحة  
+4. إرسال Pull Request  
+
+---
+
+## 📜 الترخيص | License
+
+MIT License
 
 ---
 
 <div align="center">
 
-## 👨‍💻 Developer
+## 👨‍💻 المطور | Developer
 
 Abdallah Zaitoun  
-Flutter Developer | Mobile Engineer
+Flutter Developer | مهندس تطبيقات موبايل
 
 </div>
